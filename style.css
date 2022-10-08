@@ -1,0 +1,170 @@
+
+body {
+    position: relative;
+}
+
+body {
+    background-color: #282828;
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    color: #EE8A14;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+.h1 {
+    color: #EE8A14;
+}
+
+.card-profil{
+    display: flex;
+    justify-content: end;
+    border: 20px solid #EE8A14
+}
+
+.card-profil img{
+    width: 610px;
+    height: 545px;
+    
+}.card-skill{
+    width: 350px;
+    background-color: #222222;
+    padding: 40px;
+    text-align: center;
+}
+
+.card-skill i{
+    font-size: 40px;
+    color: #EE8A14;
+}
+
+.card-title{
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.card-text{
+    color: white;
+    font-size: 15px;
+    font-family: 600;
+    margin-top: 15px;
+}
+
+
+
+.card-portofolio img{
+    width: 279px;
+    height: 250px;
+}
+
+.tombol{
+    background-color: transparent;
+    border: 1px solid #EE8A14;
+    color: white;
+    border-radius: 16px;
+    padding: 5px 10px; 
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.tombol1{
+    background-color: #EE8A14;
+    color: white;
+    border-radius: 16px;
+    padding: 5px 10px; 
+    text-transform: uppercase;
+    margin: 5px;
+}
+
+.card-experience {
+    width: 350px;
+    color: aliceblue;
+    border: 1px solid #ffff;
+    padding: 16px;
+    margin: 20px;
+    padding-right: 50px;
+}
+.card-experience h4{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.card-experience h6{
+    font-weight: 900;
+    color: #EE8A14;
+    font-size: 20px;
+}
+
+.card-experience p{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.blog {
+    margin: 90px 0px 0px 0px;
+}
+
+.contact-form {
+    background : none;
+    margin: 4px 153px 4px 153px;
+}
+
+.card-img-top {
+    padding-top: 9px;
+}
+
+.card-body {
+    background-color: #222222;
+}
+
+.card {
+    box-shadow: 0px 7px 46px -17px #DCDCDC;
+    border-radius: 3px;
+    background-color: #222222;
+}
+
+.year {
+    font-weight: 700;
+    font-size: 15px;
+    color: #EE8A14;
+    line-height: 27px;
+}
+
+.btn {
+    background-color: #EE8A14;
+    color: #DCDCDC;
+}
